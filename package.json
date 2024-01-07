@@ -4,11 +4,13 @@
     "version": "1.0.0",
     "description": "Semantic HTML Walkthrough",
     "scripts": {
-        "test": "cypress run --spec 'cypress/integration/test.spec.js'"
+        "test": "cypress run --spec 'cypress/e2e/1-getting-started/test.cy.js'"
     },
-    "dependencies": {},
+    "dependencies": {
+        "Cypress": "npm:cypress@^13.6.2"
+    },
     "devDependencies": {
-      "cypress": "^9.7.0"
+        "cypress": "^13.6.2"
     },
     "author": "curriculum@appacademy.io",
     "license": "ISC"
